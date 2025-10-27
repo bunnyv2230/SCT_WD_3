@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="tic-tac-toe-title" id="main-title">
+        <span class="main-t">T</span>
+        <div class="sub-text-container">
+            <span class="sub-text">-IC</span>
+            <span class="sub-text">-AC</span>
+            <span class="sub-text">-OE</span>
+        </div>
+    </div>
+    
+    <div id="mode-selection">
+        <h2>SELECT THE GAME MODE YOU WANT TO PLAY:</h2>
+        <button id="pvp-button">PLAYER vs PLAYER</button>
+        <button id="pvc-button">PLAYER vs COMPUTER</button>
+    </div>
+
+    <div id="game-container" class="hidden">
+        <h2 id="status-text">Player X's turn</h2>
+        <div id="game-board">
+            <div class="cell" data-index="0"></div>
+            <div class="cell" data-index="1"></div>
+            <div class="cell" data-index="2"></div>
+            <div class="cell" data-index="3"></div>
+            <div class="cell" data-index="4"></div>
+            <div class="cell" data-index="5"></div>
+           
+            <div class="cell" data-index="6"></div> 
+            <div class="cell" data-index="7"></div>
+            <div class="cell" data-index="8"></div>
+        </div>
+        
+   
+        <div class="game-controls">
+            <button id="restart-button">Restart Game</button>
+          <a href="index.html">  <button id="home-button">Back to Home</button> </a> 
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
